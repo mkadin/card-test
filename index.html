@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card.com</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+
+    <script type="text/javascript" src="scripts/jquery.js"></script>
+    <script type="text/javascript" src="scripts/jquery.mobile.js"></script>
+
+    <script type="text/javascript" src="scripts/app.js"></script>
+  </head>
+  <body>
+    <div data-role="page" id="login">
+      <div data-role="header">
+        <h2>YO</h2>
+      </div>
+      <div data-role="content">
+        <p>Blah blah blah</p>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <button id="login-submit-button">Log In</button>
+      </div>
+      <div data-transition="pop" data-role="popup" class="ui-corner-all popup-wrapper" data-overlay-theme="a" data-theme="c">
+        <div data-role="header" data-theme="a" class="ui-corner-top">
+          <h1 class="popup-title"></h1>
+        </div>
+        <div data-role="content" data-theme="d" class="ui-corner-bottom">
+          <p class="popup-content"></p>
+          <a href="#" data-role="button" data-rel="back" data-theme="c">Ok</a>    
+        </div>
+      </div>
+    </div>
+    <div data-role="page" id="my-account">
+      <div data-role="header">
+        <h1>My Account</h1>
+        <a href="#" data-icon="delete" class="logout-button ui-btn-right">Log Out</a>
+      </div>
+      <div data-role="content">
+
+      </div>
+      <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#my-account" class="ui-btn-active ui-state-persist">My Account</a></li>
+              <li><a href="#atms">ATMs</a></li>
+              <li><a href="#transfer">Transfer</a></li>
+            </ul>
+          </div>
+      </div>
+      <div data-transition="pop" data-role="popup" class="ui-corner-all popup-wrapper" data-overlay-theme="a" data-theme="c">
+        <div data-role="header" data-theme="a" class="ui-corner-top">
+          <h1 class="popup-title"></h1>
+          
+        </div>
+        <div data-role="content" data-theme="d" class="ui-corner-bottom">
+          <p class="popup-content"></p>
+          <a href="#" data-role="button" data-rel="back" data-theme="c">Ok</a>    
+        </div>
+      </div>
+    </div>
+        <div data-role="page" id="atms">
+      <div data-role="header">
+        <h1>ATMs</h1>
+                <a href="#" data-icon="delete" class="logout-button ui-btn-right">Logout</a>
+      </div>
+      <div data-role="content">
+
+      </div>
+      <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#my-account">My Account</a></li>
+              <li><a href="#atms" class="ui-btn-active ui-state-persist">ATMs</a></li>
+              <li><a href="#transfer">Transfer</a></li>
+            </ul>
+          </div><!-- /navbar -->
+      </div>
+      <div data-transition="pop" data-role="popup" class="ui-corner-all popup-wrapper" data-overlay-theme="a" data-theme="c">
+        <div data-role="header" data-theme="a" class="ui-corner-top">
+          <h1 class="popup-title"></h1>
+        </div>
+        <div data-role="content" data-theme="d" class="ui-corner-bottom">
+          <p class="popup-content"></p>
+          <a href="#" data-role="button" data-rel="back" data-theme="c">Ok</a>    
+        </div>
+      </div>
+    </div>
+        <div data-role="page" id="transfer">
+      <div data-role="header">
+        <h1>Transfer Funds</h1>
+                <a href="#" data-icon="delete" class="logout-button ui-btn-right">Logout</a>
+      </div>
+      <div data-role="content">
+
+      </div>
+      <div data-role="footer" data-position="fixed">
+          <div data-role="navbar">
+            <ul>
+              <li><a href="#my-account">My Account</a></li>
+              <li><a href="#atms">ATMs</a></li>
+              <li><a href="#transfer" class="ui-btn-active ui-state-persist">Transfer</a></li>
+            </ul>
+          </div><!-- /navbar -->
+      </div>
+      <div data-transition="pop" data-role="popup" class="ui-corner-all popup-wrapper" data-overlay-theme="a" data-theme="c">
+        <div data-role="header" data-theme="a" class="ui-corner-top">
+          <h1 class="popup-title"></h1>
+        </div>
+        <div data-role="content" data-theme="d" class="ui-corner-bottom">
+          <p class="popup-content"></p>
+          <a href="#" data-role="button" data-rel="back" data-theme="c">Ok</a>    
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
